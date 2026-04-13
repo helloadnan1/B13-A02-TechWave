@@ -60,7 +60,128 @@ nav button{
     color: #FFFFFF;
     /* padding: 16px 12px 16px 12px; */
     background: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+    cursor: pointer;
 
     
 }
 
+
+main #hero-section{
+    background-color: #1A0B2E;
+    background: url(./assets/hero-bg.png) center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    /* width: 100%; */
+}
+
+
+main .hero-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid goldenrod; */
+    padding-top: 100px;
+}
+
+.hero-container .microphone{
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(11, 11, 154);
+    border-radius: 50%;
+    padding: 45px 55px;
+    background: linear-gradient(65deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+
+}
+
+.hero-container .microphone img{
+    width: 200px;
+    height: 200px;
+    padding: 20px 45px;
+}
+
+.hero-container .microphone .new{
+    position: absolute;
+    border-radius: 60px;
+    border: none;
+    background-color: burlywood;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    top: 205px;
+    right: 570px;
+   
+
+}
+
+.hero-container h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.hero-container p{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.hero-container .buttons{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 100px;
+}
+
+.hero-container .spotify-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(65deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+
+
+
+}
+
+.hero-container .spotify-btn img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.hero-container .subscribe-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 200px;
+    border: 2px solid #00FF88;
+    border-radius: 50px;
+    color: #00FF88;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+
+
+
+}
+
+
+.hero-container .subscribe-btn img{
+    width: 20px;
+    height: 15px;
+    
+}
