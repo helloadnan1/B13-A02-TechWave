@@ -14,6 +14,8 @@
 
 header{
     background-color: #1A0B2E;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.249);
+
 
 }
 
@@ -184,4 +186,64 @@ main .hero-container{
     width: 20px;
     height: 15px;
     
+}
+
+
+
+main #about{
+    background-color: #1A0B2E;
+
+}
+
+#about .about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid green; */
+}
+
+.about-container .about-text{
+    color: #FFFFFF;
+}
+
+.about-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.about-text p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 200;
+    
+}
+
+.about-text .para{
+    padding-top: 15px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.381);
+}
+
+.about-container .about-number{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    /* border: 1px solid gold; */
+
+}
+
+.about-number h1{
+    color: #00FF88;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.about-number h6{
+    color: #FFFFFF;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 200;
 }
