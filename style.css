@@ -35,7 +35,7 @@ nav h1{
     color: #FFFFFF;
 }
 
-nav h1 .gradient{
+nav h1 .gradient, footer h1 .gradient{
     background: linear-gradient(90deg,#F7E93F 0%,#FB09B4 51%,#9100F8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -206,7 +206,7 @@ main #about{
     color: #FFFFFF;
 }
 
-.about-text h1{
+.about-text h3{
     font-size: 48px;
     font-weight: bold;
     padding-top: 50px;
@@ -246,4 +246,93 @@ main #about{
     line-height: 20px;
     font-size: 16px;
     font-weight: 200;
+}
+
+
+
+main #grid{
+    background-color: #230E3D;
+}
+
+#grid .grid-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+}
+
+.grid-container h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.grid-container .grid-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+}
+
+
+
+footer{
+    background-color: #1A0B2E;
+    background: url(./assets/footer-bg.png) center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100PX;
+}
+
+
+
+footer .footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+    /* border: 1px solid red; */  
+}
+
+footer h1{
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+ .footer-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+
+
+.footer-images .item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.item span{
+    color: #FFFFFF;
+    font-size: 16px;
+   
+}
+
+
+.footer-container .copyright{
+    color: #ffffff75;
+    font-size: 16px;
+    line-height: 20px;
 }
