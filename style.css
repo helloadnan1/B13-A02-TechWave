@@ -542,15 +542,21 @@ footer h1{
         display: none;
     }
 
+   
     nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 440px;
+        margin: 0 auto;
+        /* padding: 18px 20px; */
 
     }
 
     .hamburger{
         display: block;
+        width: 24px;
+        height: 24px;
     }
 
 
@@ -567,14 +573,24 @@ footer h1{
     .grid-cards{
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
         justify-items: center;
+    }
+
+    .grid-cards div:nth-child(1),
+    .grid-cards div:nth-child(2),
+    .grid-cards div:nth-child(3),
+    .grid-cards div:nth-child(4),
+    .grid-cards div:nth-child(5){
+        grid-column: 1 / 2;
+        grid-row: auto;
     }
 
 
     .episodes-card{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
         justify-items: center;
     }
 
@@ -600,5 +616,8 @@ footer h1{
         align-items: center;
         text-align: center;
     }
+
+
+    
 }
   
